@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Gothic A1", sans-serif;
+}
+
+.firstSlideTop{
+    display: flex !important;
+    flex-direction: row-reverse;
+}
+
+#homeSwiper{
+    width: 1519px !important; 
+    left: 0px;
+    position: absolute;
+
+}
+
+#homeSwiper .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    top: -250px;
+    left: -620px !important;
+    transform: rotate(90deg) !important;
+    white-space: nowrap;
+}
+
+#homeSwiper .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic >span{
+    border-radius: 10px;
+    width: 50px;
+    height: 10px;
+}
+
+#homeSwiper .swiper-pagination-bullet-active {
+    background-color: aliceblue !important;
+}
+
+#swiper2flip{
+    padding: 150px 0 100px;
+}
+
+#reviewSlider .swiper-slide-active .blueDiv{
+    background-color: #1e6da4 !important;
+    color: white;
+}
